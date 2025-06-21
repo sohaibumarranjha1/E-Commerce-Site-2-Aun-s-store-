@@ -1,0 +1,34 @@
+# 👟 StepForward - Premium Footwear Website
+
+StepForward is a fully responsive and animated modern footwear website built using HTML, CSS, and JavaScript. It includes interactive components like a contact form, product cards, FAQs, smooth scrolling, parallax effects, and AOS-based animations.
+
+## 🔥 Features
+- Animated navigation and scroll effects
+- Product card interactions (Add to Cart, Wishlist, Quick View)
+- Contact form with subject options
+- FAQ toggle section
+- Scroll progress indicator
+- Responsive & mobile-friendly
+- AOS integration for animations
+- Modern UI with hover, ripple & parallax effects
+
+## 📂 Pages Included
+- `index.html` – Home
+- `products.html` – Product listings
+- `contact.html` – Contact form + map + FAQs
+- `returns.html` – Return policy page
+- `size-guide.html` – Shoe sizing info
+- `about.html` – Brand story and mission
+
+## 🚀 Tech Stack
+- HTML5, CSS3, JavaScript (Vanilla)
+- Font Awesome for icons
+- Google Fonts (Poppins)
+- AOS (Animate on Scroll)
+
+## 👤 Author
+**Sohaib Ranjha**  
+_Passionate frontend developer from Pakistan_
+
+---
+
