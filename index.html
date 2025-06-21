@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StepForward - Premium Footwear</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__logo">
+          <img src="logo.png" alt="StepForward Logo" class="logo-img" />
+          <span>StepForward</span>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#features" class="nav__link">Features</a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#testimonials" class="nav__link">Reviews</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Home -->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div
+            class="home__data"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <h1 class="home__title">
+              Step Into <span class="gradient-text">Excellence</span>
+            </h1>
+            <p class="home__description">
+              Discover our premium collection of handcrafted footwear designed
+              for comfort, style, and durability. Every step tells a story of
+              quality and innovation.
+            </p>
+
+            <div class="home__buttons">
+              <a href="#products" class="button button--primary">
+                <i class="fas fa-shopping-bag"></i>
+                Shop Now
+              </a>
+              <a href="#features" class="button button--ghost">
+                Learn More
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <div class="home__stats">
+              <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                <span class="stat-number">50K+</span>
+                <span class="stat-label">Happy Customers</span>
+              </div>
+              <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+                <span class="stat-number">500+</span>
+                <span class="stat-label">Premium Designs</span>
+              </div>
+              <div class="stat-item" data-aos="fade-up" data-aos-delay="600">
+                <span class="stat-number">15+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="home__img" data-aos="fade-left" data-aos-duration="1000">
+            <div class="home__img-container">
+              <img
+                src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&h=600&fit=crop&crop=center"
+                alt="Premium Shoe"
+                class="home__shoe"
+              />
+              <div class="home__img-overlay"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-indicator">
+          <div
+            class="scroll-arrow"
+            data-aos="bounce"
+            data-aos-delay="1000"
+            data-aos-duration="2000"
+          >
+            <i class="fas fa-chevron-down"></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section class="features section" id="features">
+        <div class="container">
+          <div class="section__header" data-aos="fade-up">
+            <h2 class="section__title">Why Choose StepForward?</h2>
+            <p class="section__subtitle">
+              Experience the perfect blend of comfort, style, and innovation
+            </p>
+          </div>
+
+          <div class="features__container grid">
+            <div class="feature__card" data-aos="fade-up" data-aos-delay="100">
+              <div class="feature__icon">
+                <i class="fas fa-award"></i>
+              </div>
+              <h3 class="feature__title">Premium Quality</h3>
+              <p class="feature__description">
+                Handcrafted with the finest materials and attention to detail.
+                Every pair is built to last and designed to impress.
+              </p>
+            </div>
+
+            <div class="feature__card" data-aos="fade-up" data-aos-delay="200">
+              <div class="feature__icon">
+                <i class="fas fa-heart"></i>
+              </div>
+              <h3 class="feature__title">Ultimate Comfort</h3>
+              <p class="feature__description">
+                Advanced cushioning technology and ergonomic design ensure
+                all-day comfort for every step you take.
+              </p>
+            </div>
+
+            <div class="feature__card" data-aos="fade-up" data-aos-delay="300">
+              <div class="feature__icon">
+                <i class="fas fa-palette"></i>
+              </div>
+              <h3 class="feature__title">Trendy Designs</h3>
+              <p class="feature__description">
+                Stay ahead of fashion trends with our contemporary designs that
+                perfectly complement any outfit or occasion.
+              </p>
+            </div>
+
+            <div class="feature__card" data-aos="fade-up" data-aos-delay="400">
+              <div class="feature__icon">
+                <i class="fas fa-shipping-fast"></i>
+              </div>
+              <h3 class="feature__title">Fast Delivery</h3>
+              <p class="feature__description">
+                Free worldwide shipping with express delivery options. Get your
+                perfect pair delivered right to your doorstep.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products -->
+      <section class="products section" id="products">
+        <div class="container">
+          <div class="section__header" data-aos="fade-up">
+            <h2 class="section__title">Featured Collection</h2>
+            <p class="section__subtitle">
+              Discover our most popular and trending footwear
+            </p>
+          </div>
+
+          <div class="products__container grid">
+            <div class="product__card" data-aos="zoom-in" data-aos-delay="100">
+              <div class="product__img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center"
+                  alt="Nike Air Mag"
+                  class="product__img"
+                />
+                <div class="product__overlay">
+                  <button class="product__btn">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                  <button class="product__btn">
+                    <i class="fas fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="product__data">
+                <h3 class="product__title">Nike Air Mag</h3>
+                <p class="product__description">
+                  Timeless design meets modern comfort
+                </p>
+                <div class="product__price">
+                  <span class="price__current">$129</span>
+                  <span class="price__old">$159</span>
+                </div>
+                <button class="button button--small">Add to Cart</button>
+              </div>
+            </div>
+
+            <div class="product__card" data-aos="zoom-in" data-aos-delay="200">
+              <div class="product__img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1606297199333-e93f7d726cab?w=400&h=400&fit=crop&crop=center"
+                  alt="Adidas Yeezy Boost 350"
+                  class="product__img"
+                />
+                <div class="product__overlay">
+                  <button class="product__btn">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                  <button class="product__btn">
+                    <i class="fas fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="product__data">
+                <h3 class="product__title">Adidas Yeezy Boost 350</h3>
+                <p class="product__description">
+                  High-performance footwear for athletes
+                </p>
+                <div class="product__price">
+                  <span class="price__current">$189</span>
+                  <span class="price__old">$229</span>
+                </div>
+                <button class="button button--small">Add to Cart</button>
+              </div>
+            </div>
+
+            <div class="product__card" data-aos="zoom-in" data-aos-delay="300">
+              <div class="product__img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1575176648002-f2021e56b375?w=400&h=400&fit=crop&crop=center"
+                  alt="Gucci Horsebit Loafer"
+                  class="product__img"
+                />
+                <div class="product__overlay">
+                  <button class="product__btn">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                  <button class="product__btn">
+                    <i class="fas fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="product__data">
+                <h3 class="product__title">Gucci Horsebit</h3>
+                <p class="product__description">
+                  Sophisticated style for every occasion
+                </p>
+                <div class="product__price">
+                  <span class="price__current">$249</span>
+                  <span class="price__old">$299</span>
+                </div>
+                <button class="button button--small">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="products__cta" data-aos="fade-up" data-aos-delay="400">
+            <a href="#" class="button button--primary button--large">
+              View All Products
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="testimonials section" id="testimonials">
+        <div class="container">
+          <div class="section__header" data-aos="fade-up">
+            <h2 class="section__title">What Our Customers Say</h2>
+            <p class="section__subtitle">
+              Real reviews from satisfied customers worldwide
+            </p>
+          </div>
+
+          <div class="testimonials__container grid">
+            <div
+              class="testimonial__card"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="testimonial__stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial__text">
+                "The most comfortable shoes I've ever owned! The quality is
+                exceptional and the design is absolutely stunning. Highly
+                recommended!"
+              </p>
+              <div class="testimonial__author">
+                <img
+                  src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=60&h=60&fit=crop&crop=center"
+                  alt="Mahira Khan"
+                  class="testimonial__img"
+                />
+                <div class="testimonial__info">
+                  <h4 class="testimonial__name">Mahira Khan</h4>
+                  <span class="testimonial__role">Actress</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="testimonial__card"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="testimonial__stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial__text">
+                "Amazing customer service and lightning-fast delivery. The shoes
+                exceeded my expectations in every way. Will definitely order
+                again!"
+              </p>
+              <div class="testimonial__author">
+                <img
+                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=center"
+                  alt="Mike Chen"
+                  class="testimonial__img"
+                />
+                <div class="testimonial__info">
+                  <h4 class="testimonial__name">Sabih Qureshi</h4>
+                  <span class="testimonial__role">Business Executive</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="testimonial__card"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="testimonial__stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial__text">
+                "Perfect fit, perfect style, perfect quality. These shoes have
+                become my go-to choice for both work and weekend activities."
+              </p>
+              <div class="testimonial__author">
+                <img
+                  src="https://randomuser.me/api/portraits/men/75.jpg"
+                  alt="Uzair Ali Khan"
+                  class="testimonial__img"
+                />
+                <div class="testimonial__info">
+                  <h4 class="testimonial__name">Uzair Ali Khan</h4>
+                  <span class="testimonial__role">Marketing Director</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="cta section">
+        <div class="container">
+          <div class="cta__container" data-aos="zoom-in">
+            <div class="cta__content">
+              <h2 class="cta__title">Ready to Step Forward?</h2>
+              <p class="cta__description">
+                Join thousands of satisfied customers and experience the perfect
+                blend of comfort, style, and quality.
+              </p>
+              <div class="cta__buttons">
+                <a href="#" class="button button--primary button--large">
+                  <i class="fas fa-shopping-cart"></i>
+                  Shop Now
+                </a>
+                <a href="#" class="button button--ghost button--large">
+                  <i class="fas fa-user-plus"></i>
+                  Sign Up
+                </a>
+              </div>
+              <div class="cta__features">
+                <div class="cta__feature">
+                  <i class="fas fa-truck"></i>
+                  <span>Free Shipping</span>
+                </div>
+                <div class="cta__feature">
+                  <i class="fas fa-undo"></i>
+                  <span>30-Day Returns</span>
+                </div>
+                <div class="cta__feature">
+                  <i class="fas fa-shield-alt"></i>
+                  <span>Quality Guarantee</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+      <div class="container">
+        <div class="footer__container grid">
+          <div class="footer__content">
+            <div class="footer__logo">
+              <img src="logo.png" alt="StepForward Logo" class="logo-img" />
+              <span>StepForward</span>
+            </div>
+            <p class="footer__description">
+              Crafting exceptional footwear since 2010. We believe every step
+              should be a statement of style, comfort, and quality.
+            </p>
+            <div class="footer__social">
+              <a href="#" class="footer__social-link">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="footer__social-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="footer__social-link">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="footer__social-link">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer__group">
+            <h3 class="footer__title">Company</h3>
+            <ul class="footer__list">
+              <li><a href="#" class="footer__link">About Us</a></li>
+              <li><a href="#" class="footer__link">Our Story</a></li>
+              <li><a href="#" class="footer__link">Careers</a></li>
+              <li><a href="#" class="footer__link">Press</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__group">
+            <h3 class="footer__title">Products</h3>
+            <ul class="footer__list">
+              <li><a href="#" class="footer__link">Men's Shoes</a></li>
+              <li><a href="#" class="footer__link">Women's Shoes</a></li>
+              <li><a href="#" class="footer__link">Athletic</a></li>
+              <li><a href="#" class="footer__link">Casual</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__group">
+            <h3 class="footer__title">Support</h3>
+            <ul class="footer__list">
+              <li><a href="#" class="footer__link">Size Guide</a></li>
+              <li><a href="#" class="footer__link">Returns</a></li>
+              <li><a href="#" class="footer__link">FAQ</a></li>
+              <li><a href="#" class="footer__link">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__group">
+            <h3 class="footer__title">Contact Info</h3>
+            <div class="footer__contact">
+              <div class="footer__contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>aoun@stepforward.com</span>
+              </div>
+              <div class="footer__contact-item">
+                <i class="fas fa-phone"></i>
+                <span>+92 336 8370237</span>
+              </div>
+              <div class="footer__contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>GHQ, Rawalpindi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p class="footer__copy">
+            © 2025 StepForward. All rights reserved. | Privacy Policy | Terms of
+            Service
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

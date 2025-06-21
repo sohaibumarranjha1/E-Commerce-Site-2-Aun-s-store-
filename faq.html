@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ - StepForward Premium Footwear</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__logo">
+          <img src="logo.png" alt="StepForward Logo" class="logo-img" />
+          <span>StepForward</span>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="products.html" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link">Contact</a>
+            </li>
+            <li class="nav__item">
+              <a href="size-guide.html" class="nav__link">Size Guide</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+      <!-- FAQ Hero Section -->
+      <section class="faq-hero section">
+        <div class="container">
+          <div class="faq-hero__content" data-aos="fade-up">
+            <h1 class="faq-hero__title">
+              Frequently Asked <span class="gradient-text">Questions</span>
+            </h1>
+            <p class="faq-hero__description">
+              Find quick answers to common questions about our products,
+              shipping, returns, and more.
+            </p>
+
+            <div class="faq-hero__search">
+              <div class="search-box">
+                <input
+                  type="text"
+                  placeholder="Search for answers..."
+                  class="search-input"
+                  id="faq-search"
+                />
+                <button class="search-btn">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Categories -->
+      <section class="faq-categories section">
+        <div class="container">
+          <div class="faq-categories__container grid">
+            <div
+              class="faq-category__card"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="faq-category__icon">
+                <i class="fas fa-shipping-fast"></i>
+              </div>
+              <h3 class="faq-category__title">Shipping & Delivery</h3>
+              <p class="faq-category__count">8 Questions</p>
+            </div>
+
+            <div
+              class="faq-category__card"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="faq-category__icon">
+                <i class="fas fa-sync-alt"></i>
+              </div>
+              <h3 class="faq-category__title">Returns & Exchanges</h3>
+              <p class="faq-category__count">12 Questions</p>
+            </div>
+
+            <div
+              class="faq-category__card"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="faq-category__icon">
+                <i class="fas fa-ruler-combined"></i>
+              </div>
+              <h3 class="faq-category__title">Sizing & Fit</h3>
+              <p class="faq-category__count">6 Questions</p>
+            </div>
+
+            <div
+              class="faq-category__card"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="faq-category__icon">
+                <i class="fas fa-credit-card"></i>
+              </div>
+              <h3 class="faq-category__title">Payment & Orders</h3>
+              <p class="faq-category__count">10 Questions</p>
+            </div>
+
+            <div
+              class="faq-category__card"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="faq-category__icon">
+                <i class="fas fa-cog"></i>
+              </div>
+              <h3 class="faq-category__title">Product Care</h3>
+              <p class="faq-category__count">5 Questions</p>
+            </div>
+
+            <div
+              class="faq-category__card"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="faq-category__icon">
+                <i class="fas fa-user-circle"></i>
+              </div>
+              <h3 class="faq-category__title">Account & Profile</h3>
+              <p class="faq-category__count">7 Questions</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Shipping & Delivery FAQ -->
+      <section class="faq-section section" id="shipping">
+        <div class="container">
+          <div class="section__header" data-aos="fade-up">
+            <h2 class="section__title">
+              <i class="fas fa-shipping-fast"></i>
+              Shipping & Delivery
+            </h2>
+          </div>
+
+          <div class="faq__container">
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+              <div class="faq__question">
+                <h3>How long does shipping take?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Standard shipping takes 3-5 business days within Pakistan.
+                  Express shipping (1-2 days) and international shipping (7-14
+                  days) are also available. All orders placed before 2 PM ship
+                  the same day.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+              <div class="faq__question">
+                <h3>Do you offer free shipping?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Yes! We offer free standard shipping on all orders over PKR
+                  5,000. For orders under this amount, standard shipping is PKR
+                  250.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+              <div class="faq__question">
+                <h3>Can I track my order?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Absolutely! You'll receive a tracking number via email once
+                  your order ships. You can track your package on our website or
+                  the carrier's website.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+              <div class="faq__question">
+                <h3>Do you ship internationally?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Yes, we ship to over 150 countries worldwide. International
+                  shipping costs vary by destination and package weight. Free
+                  international shipping is available for orders over $200.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Returns & Exchanges FAQ -->
+      <section class="faq-section section" id="returns">
+        <div class="container">
+          <div class="section__header" data-aos="fade-up">
+            <h2 class="section__title">
+              <i class="fas fa-sync-alt"></i>
+              Returns & Exchanges
+            </h2>
+          </div>
+
+          <div class="faq__container">
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+              <div class="faq__question">
+                <h3>What is your return policy?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  We offer a 30-day return policy for all unworn shoes in
+                  original condition. Returns are free for orders over PKR
+                  5,000, and we provide prepaid return labels.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+              <div class="faq__question">
+                <h3>How do I start a return?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Log into your account, go to order history, and click "Return
+                  Items" next to your order. We'll email you a prepaid return
+                  label and instructions.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+              <div class="faq__question">
+                <h3>Can I exchange for a different size?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Yes! Size exchanges are free and processed quickly. We'll send
+                  out your new size as soon as we receive your return.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+              <div class="faq__question">
+                <h3>How long do refunds take?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Refunds are processed within 5-7 business days once we receive
+                  your return. You'll get an email confirmation when your refund
+                  is processed.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sizing & Fit FAQ -->
+      <section class="faq-section section" id="sizing">
+        <div class="container">
+          <div class="section__header" data-aos="fade-up">
+            <h2 class="section__title">
+              <i class="fas fa-ruler-combined"></i>
+              Sizing & Fit
+            </h2>
+          </div>
+
+          <div class="faq__container">
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+              <div class="faq__question">
+                <h3>How do I find my shoe size?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Use our comprehensive size guide to measure your feet
+                  properly. We recommend measuring in the evening when your feet
+                  are slightly swollen for the most accurate fit.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+              <div class="faq__question">
+                <h3>Do your shoes run true to size?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Most of our shoes run true to size, but some styles may vary.
+                  Check the product page for specific sizing notes and customer
+                  reviews for fit feedback.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+              <div class="faq__question">
+                <h3>What if I'm between sizes?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  If you're between sizes, we generally recommend sizing up for
+                  athletic shoes and sizing down for dress shoes. Contact our
+                  customer service for personalized advice.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Payment & Orders FAQ -->
+      <section class="faq-section section" id="payment">
+        <div class="container">
+          <div class="section__header" data-aos="fade-up">
+            <h2 class="section__title">
+              <i class="fas fa-credit-card"></i>
+              Payment & Orders
+            </h2>
+          </div>
+
+          <div class="faq__container">
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+              <div class="faq__question">
+                <h3>What payment methods do you accept?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  We accept all major credit cards (Visa, MasterCard, American
+                  Express), PayPal, bank transfers, and cash on delivery for
+                  local orders.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+              <div class="faq__question">
+                <h3>Is it safe to order online?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Yes, our website uses SSL encryption to protect your personal
+                  and payment information. We never store your credit card
+                  details on our servers.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+              <div class="faq__question">
+                <h3>Can I modify or cancel my order?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  You can modify or cancel your order within 1 hour of placing
+                  it. After that, contact our customer service team and we'll do
+                  our best to help.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+              <div class="faq__question">
+                <h3>Do you offer student discounts?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Yes! Students get 15% off with valid student ID verification.
+                  Military personnel and healthcare workers also receive special
+                  discounts.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Product Care FAQ -->
+      <section class="faq-section section" id="care">
+        <div class="container">
+          <div class="section__header" data-aos="fade-up">
+            <h2 class="section__title">
+              <i class="fas fa-cog"></i>
+              Product Care
+            </h2>
+          </div>
+
+          <div class="faq__container">
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+              <div class="faq__question">
+                <h3>How should I clean my shoes?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Cleaning depends on the material. Leather shoes should be
+                  wiped with a damp cloth and conditioned regularly. Athletic
+                  shoes can be machine washed on gentle cycle. Check the care
+                  label for specific instructions.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+              <div class="faq__question">
+                <h3>How can I make my shoes last longer?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Rotate between multiple pairs, use shoe trees to maintain
+                  shape, keep them clean and dry, and store them properly. Avoid
+                  wearing the same pair daily.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+              <div class="faq__question">
+                <h3>Do you offer shoe repair services?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  We don't offer direct repair services, but we can recommend
+                  authorized repair shops in your area. Some repairs may be
+                  covered under our warranty.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Account & Profile FAQ -->
+      <section class="faq-section section" id="account">
+        <div class="container">
+          <div class="section__header" data-aos="fade-up">
+            <h2 class="section__title">
+              <i class="fas fa-user-circle"></i>
+              Account & Profile
+            </h2>
+          </div>
+
+          <div class="faq__container">
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+              <div class="faq__question">
+                <h3>Do I need an account to place an order?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  No, you can checkout as a guest. However, creating an account
+                  allows you to track orders, save favorites, and enjoy faster
+                  checkout for future purchases.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+              <div class="faq__question">
+                <h3>How do I reset my password?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Click "Forgot Password" on the login page and enter your
+                  email. We'll send you a secure link to reset your password.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+              <div class="faq__question">
+                <h3>Can I change my email address?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Yes, you can update your email address in your account
+                  settings. You'll need to verify the new email address for
+                  security purposes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Still Have Questions -->
+      <section class="contact-support section">
+        <div class="container">
+          <div class="contact-support__container" data-aos="zoom-in">
+            <div class="contact-support__content">
+              <h2 class="contact-support__title">Still Have Questions?</h2>
+              <p class="contact-support__description">
+                Can't find what you're looking for? Our customer service team is
+                here to help with any questions.
+              </p>
+
+              <div class="contact-support__options">
+                <div class="contact-support__option">
+                  <i class="fas fa-phone"></i>
+                  <div>
+                    <h4>Call Us</h4>
+                    <p>+92 336 8370237</p>
+                  </div>
+                </div>
+
+                <div class="contact-support__option">
+                  <i class="fas fa-envelope"></i>
+                  <div>
+                    <h4>Email Us</h4>
+                    <p>aoun@stepforward.com</p>
+                  </div>
+                </div>
+
+                <div class="contact-support__option">
+                  <i class="fas fa-comments"></i>
+                  <div>
+                    <h4>Live Chat</h4>
+                    <p>Available 9AM-9PM</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-support__actions">
+                <a
+                  href="contact.html"
+                  class="button button--primary button--large"
+                >
+                  <i class="fas fa-headset"></i>
+                  Contact Support
+                </a>
+                <a href="#" class="button button--ghost button--large">
+                  <i class="fas fa-comments"></i>
+                  Start Live Chat
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container grid">
+          <div class="footer__content">
+            <div class="footer__logo">
+              <img src="logo.png" alt="StepForward Logo" class="logo-img" />
+              <span>StepForward</span>
+            </div>
+            <p class="footer__description">
+              Crafting exceptional footwear since 2010. We believe every step
+              should be a statement of style, comfort, and quality.
+            </p>
+            <div class="footer__social">
+              <a href="#" class="footer__social-link">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="footer__social-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="footer__social-link">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="footer__social-link">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer__group">
+            <h3 class="footer__title">Company</h3>
+            <ul class="footer__list">
+              <li><a href="about.html" class="footer__link">About Us</a></li>
+              <li><a href="careers.html" class="footer__link">Careers</a></li>
+              <li><a href="press.html" class="footer__link">Press</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__group">
+            <h3 class="footer__title">Products</h3>
+            <ul class="footer__list">
+              <li>
+                <a href="products.html?category=mens" class="footer__link"
+                  >Men's Shoes</a
+                >
+              </li>
+              <li>
+                <a href="products.html?category=womens" class="footer__link"
+                  >Women's Shoes</a
+                >
+              </li>
+              <li>
+                <a href="products.html?category=athletic" class="footer__link"
+                  >Athletic</a
+                >
+              </li>
+              <li>
+                <a href="products.html?category=casual" class="footer__link"
+                  >Casual</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__group">
+            <h3 class="footer__title">Support</h3>
+            <ul class="footer__list">
+              <li>
+                <a href="size-guide.html" class="footer__link">Size Guide</a>
+              </li>
+              <li><a href="returns.html" class="footer__link">Returns</a></li>
+              <li><a href="faq.html" class="footer__link">FAQ</a></li>
+              <li><a href="contact.html" class="footer__link">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__group">
+            <h3 class="footer__title">Contact Info</h3>
+            <div class="footer__contact">
+              <div class="footer__contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>aoun@stepforward.com</span>
+              </div>
+              <div class="footer__contact-item">
+                <i class="fas fa-phone"></i>
+                <span>+92 336 8370237</span>
+              </div>
+              <div class="footer__contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>GHQ, Rawalpindi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p class="footer__copy">
+            © 2025 StepForward. All rights reserved. | Privacy Policy | Terms of
+            Service
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

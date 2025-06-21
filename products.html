@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products - StepForward Premium Footwear</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__logo">
+          <img src="logo.png" alt="StepForward Logo" class="logo-img" />
+          <span>StepForward</span>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="products.html" class="nav__link active-link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link">Contact</a>
+            </li>
+            <li class="nav__item">
+              <a href="size-guide.html" class="nav__link">Size Guide</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Products Hero Section -->
+      <section class="products-hero section">
+        <div class="container">
+          <div class="products-hero__content" data-aos="fade-up">
+            <h1 class="products-hero__title">
+              Our <span class="gradient-text">Collection</span>
+            </h1>
+            <p class="products-hero__description">
+              Discover premium footwear crafted for every occasion. From
+              athletic performance to elegant style, find your perfect pair.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Filter Section -->
+      <section class="filter section">
+        <div class="container">
+          <div class="filter__container">
+            <div class="filter__buttons" data-aos="fade-up">
+              <button class="filter__btn active" data-filter="all">
+                All Products
+              </button>
+              <button class="filter__btn" data-filter="mens">Men's</button>
+              <button class="filter__btn" data-filter="womens">Women's</button>
+              <button class="filter__btn" data-filter="athletic">
+                Athletic
+              </button>
+              <button class="filter__btn" data-filter="casual">Casual</button>
+              <button class="filter__btn" data-filter="formal">Formal</button>
+            </div>
+
+            <div
+              class="filter__controls"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="filter__sort">
+                <label for="sort">Sort by:</label>
+                <select id="sort" class="filter__select">
+                  <option value="featured">Featured</option>
+                  <option value="price-low">Price: Low to High</option>
+                  <option value="price-high">Price: High to Low</option>
+                  <option value="newest">Newest</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products Grid -->
+      <section class="products-grid section">
+        <div class="container">
+          <div class="products__container grid">
+            <!-- Men's Athletic -->
+            <div
+              class="product__card"
+              data-category="mens athletic"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="product__img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center"
+                  alt="Nike Air Mag"
+                  class="product__img"
+                />
+                <div class="product__overlay">
+                  <button class="product__btn">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                  <button class="product__btn">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </div>
+                <div class="product__badge">New</div>
+              </div>
+              <div class="product__data">
+                <span class="product__category">Men's Athletic</span>
+                <h3 class="product__title">Nike Air Mag</h3>
+                <p class="product__description">
+                  Future-inspired design with advanced cushioning
+                </p>
+                <div class="product__rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <span>(127 reviews)</span>
+                </div>
+                <div class="product__price">
+                  <span class="price__current">$129</span>
+                  <span class="price__old">$159</span>
+                </div>
+                <button class="button button--small">Add to Cart</button>
+              </div>
+            </div>
+
+            <!-- Women's Athletic -->
+            <div
+              class="product__card"
+              data-category="womens athletic"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="product__img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1606297199333-e93f7d726cab?w=400&h=400&fit=crop&crop=center"
+                  alt="Adidas Yeezy Boost 350"
+                  class="product__img"
+                />
+                <div class="product__overlay">
+                  <button class="product__btn">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                  <button class="product__btn">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </div>
+                <div class="product__badge sale">Sale</div>
+              </div>
+              <div class="product__data">
+                <span class="product__category">Women's Athletic</span>
+                <h3 class="product__title">Adidas Yeezy Boost 350</h3>
+                <p class="product__description">
+                  Iconic style meets cutting-edge comfort
+                </p>
+                <div class="product__rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <span>(89 reviews)</span>
+                </div>
+                <div class="product__price">
+                  <span class="price__current">$189</span>
+                  <span class="price__old">$229</span>
+                </div>
+                <button class="button button--small">Add to Cart</button>
+              </div>
+            </div>
+
+            <!-- Men's Formal -->
+            <div
+              class="product__card"
+              data-category="mens formal"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="product__img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1575176648002-f2021e56b375?w=400&h=400&fit=crop&crop=center"
+                  alt="Gucci Horsebit Loafer"
+                  class="product__img"
+                />
+                <div class="product__overlay">
+                  <button class="product__btn">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                  <button class="product__btn">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="product__data">
+                <span class="product__category">Men's Formal</span>
+                <h3 class="product__title">Gucci Horsebit</h3>
+                <p class="product__description">
+                  Luxury craftsmanship for the discerning gentleman
+                </p>
+                <div class="product__rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <span>(156 reviews)</span>
+                </div>
+                <div class="product__price">
+                  <span class="price__current">$249</span>
+                  <span class="price__old">$299</span>
+                </div>
+                <button class="button button--small">Add to Cart</button>
+              </div>
+            </div>
+
+            <!-- Women's Casual -->
+            <div
+              class="product__card"
+              data-category="womens casual"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <div class="product__img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1565379793984-e65b51b33b37?w=400&h=400&fit=crop&crop=center"
+                  alt="Converse Classic High-Top"
+                  class="product__img"
+                />
+                <div class="product__overlay">
+                  <button class="product__btn">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                  <button class="product__btn">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="product__data">
+                <span class="product__category">Women's Casual</span>
+                <h3 class="product__title">Converse Classic High-Top</h3>
+                <p class="product__description">
+                  Timeless style for everyday wear
+                </p>
+                <div class="product__rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>(203 reviews)</span>
+                </div>
+                <div class="product__price">
+                  <span class="price__current">$85</span>
+                </div>
+                <button class="button button--small">Add to Cart</button>
+              </div>
+            </div>
+
+            <!-- Men's Athletic -->
+            <div
+              class="product__card"
+              data-category="mens athletic"
+              data-aos="zoom-in"
+              data-aos-delay="500"
+            >
+              <div class="product__img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=400&fit=crop&crop=center"
+                  alt="Nike Air Max 270"
+                  class="product__img"
+                />
+                <div class="product__overlay">
+                  <button class="product__btn">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                  <button class="product__btn">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="product__data">
+                <span class="product__category">Men's Athletic</span>
+                <h3 class="product__title">Nike Air Max 270</h3>
+                <p class="product__description">
+                  Maximum comfort with visible Air unit
+                </p>
+                <div class="product__rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <span>(342 reviews)</span>
+                </div>
+                <div class="product__price">
+                  <span class="price__current">$150</span>
+                </div>
+                <button class="button button--small">Add to Cart</button>
+              </div>
+            </div>
+
+            <!-- Women's Formal -->
+            <div
+              class="product__card"
+              data-category="womens formal"
+              data-aos="zoom-in"
+              data-aos-delay="600"
+            >
+              <div class="product__img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1610398752800-146f269dfcc8?w=400&h=400&fit=crop&crop=center"
+                  alt="Christian Louboutin Heels"
+                  class="product__img"
+                />
+                <div class="product__overlay">
+                  <button class="product__btn">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                  <button class="product__btn">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </div>
+                <div class="product__badge">Luxury</div>
+              </div>
+              <div class="product__data">
+                <span class="product__category">Women's Formal</span>
+                <h3 class="product__title">Christian Louboutin Heels</h3>
+                <p class="product__description">Iconic red sole elegance</p>
+                <div class="product__rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <span>(78 reviews)</span>
+                </div>
+                <div class="product__price">
+                  <span class="price__current">$695</span>
+                </div>
+                <button class="button button--small">Add to Cart</button>
+              </div>
+            </div>
+
+            <!-- Men's Casual -->
+            <div
+              class="product__card"
+              data-category="mens casual"
+              data-aos="zoom-in"
+              data-aos-delay="700"
+            >
+              <div class="product__img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1589312866743-e043e4a6e2b9?w=400&h=400&fit=crop&crop=center"
+                  alt="Vans Old Skool"
+                  class="product__img"
+                />
+                <div class="product__overlay">
+                  <button class="product__btn">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                  <button class="product__btn">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="product__data">
+                <span class="product__category">Men's Casual</span>
+                <h3 class="product__title">Vans Old Skool</h3>
+                <p class="product__description">
+                  Classic skate style with durable construction
+                </p>
+                <div class="product__rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>(187 reviews)</span>
+                </div>
+                <div class="product__price">
+                  <span class="price__current">$65</span>
+                </div>
+                <button class="button button--small">Add to Cart</button>
+              </div>
+            </div>
+
+            <!-- Women's Athletic -->
+            <div
+              class="product__card"
+              data-category="womens athletic"
+              data-aos="zoom-in"
+              data-aos-delay="800"
+            >
+              <div class="product__img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=400&h=400&fit=crop&crop=center"
+                  alt="Adidas Ultraboost 22"
+                  class="product__img"
+                />
+                <div class="product__overlay">
+                  <button class="product__btn">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                  <button class="product__btn">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </div>
+                <div class="product__badge">Bestseller</div>
+              </div>
+              <div class="product__data">
+                <span class="product__category">Women's Athletic</span>
+                <h3 class="product__title">Adidas Ultraboost 22</h3>
+                <p class="product__description">
+                  Energy-returning performance running shoe
+                </p>
+                <div class="product__rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <span>(294 reviews)</span>
+                </div>
+                <div class="product__price">
+                  <span class="price__current">$180</span>
+                </div>
+                <button class="button button--small">Add to Cart</button>
+              </div>
+            </div>
+
+            <!-- Men's Formal -->
+            <div
+              class="product__card"
+              data-category="mens formal"
+              data-aos="zoom-in"
+              data-aos-delay="900"
+            >
+              <div class="product__img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop&crop=center"
+                  alt="Oxford Classic"
+                  class="product__img"
+                />
+                <div class="product__overlay">
+                  <button class="product__btn">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                  <button class="product__btn">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="product__data">
+                <span class="product__category">Men's Formal</span>
+                <h3 class="product__title">Oxford Classic</h3>
+                <p class="product__description">
+                  Traditional craftsmanship meets modern comfort
+                </p>
+                <div class="product__rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <span>(145 reviews)</span>
+                </div>
+                <div class="product__price">
+                  <span class="price__current">$195</span>
+                </div>
+                <button class="button button--small">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Load More -->
+          <div class="products__load-more" data-aos="fade-up">
+            <button class="button button--ghost button--large" id="load-more">
+              Load More Products
+              <i class="fas fa-arrow-down"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter Subscription -->
+      <section class="newsletter section">
+        <div class="container">
+          <div class="newsletter__container" data-aos="zoom-in">
+            <div class="newsletter__content">
+              <h2 class="newsletter__title">Stay Updated</h2>
+              <p class="newsletter__description">
+                Get notified about new arrivals, exclusive offers, and style
+                tips.
+              </p>
+              <form class="newsletter__form">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="newsletter__input"
+                  required
+                  style="
+                    width: 380px;
+                    height: 50px;
+                    padding: 0 20px;
+                    font-size: 16px;
+                    border-radius: 30px;
+                    border: 1px solid #000000;
+                    outline: none;
+                    transition: border-color 0.3s ease;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                  "
+                />
+                <button type="submit" class="button button--primary">
+                  Subscribe
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+      <div class="container">
+        <div class="footer__container grid">
+          <div class="footer__content">
+            <div class="footer__logo">
+              <img src="logo.png" alt="StepForward Logo" class="logo-img" />
+              <span>StepForward</span>
+            </div>
+            <p class="footer__description">
+              Crafting exceptional footwear since 2010. We believe every step
+              should be a statement of style, comfort, and quality.
+            </p>
+            <div class="footer__social">
+              <a href="#" class="footer__social-link">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="footer__social-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="footer__social-link">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="footer__social-link">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer__group">
+            <h3 class="footer__title">Company</h3>
+            <ul class="footer__list">
+              <li><a href="about.html" class="footer__link">About Us</a></li>
+              <li><a href="careers.html" class="footer__link">Careers</a></li>
+              <li><a href="press.html" class="footer__link">Press</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__group">
+            <h3 class="footer__title">Products</h3>
+            <ul class="footer__list">
+              <li>
+                <a href="products.html?category=mens" class="footer__link"
+                  >Men's Shoes</a
+                >
+              </li>
+              <li>
+                <a href="products.html?category=womens" class="footer__link"
+                  >Women's Shoes</a
+                >
+              </li>
+              <li>
+                <a href="products.html?category=athletic" class="footer__link"
+                  >Athletic</a
+                >
+              </li>
+              <li>
+                <a href="products.html?category=casual" class="footer__link"
+                  >Casual</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__group">
+            <h3 class="footer__title">Support</h3>
+            <ul class="footer__list">
+              <li>
+                <a href="size-guide.html" class="footer__link">Size Guide</a>
+              </li>
+              <li><a href="returns.html" class="footer__link">Returns</a></li>
+              <li><a href="faq.html" class="footer__link">FAQ</a></li>
+              <li><a href="contact.html" class="footer__link">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__group">
+            <h3 class="footer__title">Contact Info</h3>
+            <div class="footer__contact">
+              <div class="footer__contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>aoun@stepforward.com</span>
+              </div>
+              <div class="footer__contact-item">
+                <i class="fas fa-phone"></i>
+                <span>+92 336 8370237</span>
+              </div>
+              <div class="footer__contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>GHQ, Rawalpindi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p class="footer__copy">
+            © 2025 StepForward. All rights reserved. | Privacy Policy | Terms of
+            Service
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

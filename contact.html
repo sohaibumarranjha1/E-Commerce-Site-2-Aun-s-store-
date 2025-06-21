@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - StepForward Premium Footwear</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__logo">
+          <img src="logo.png" alt="StepForward Logo" class="logo-img" />
+          <span>StepForward</span>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="products.html" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link active-link">Contact</a>
+            </li>
+            <li class="nav__item">
+              <a href="size-guide.html" class="nav__link">Size Guide</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Contact Hero Section -->
+      <section class="contact-hero section">
+        <div class="container">
+          <div class="contact-hero__content" data-aos="fade-up">
+            <h1 class="contact-hero__title">
+              Get In <span class="gradient-text">Touch</span>
+            </h1>
+            <p class="contact-hero__description">
+              We're here to help you find your perfect pair or answer any
+              questions you might have. Reach out to us anytime!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Information -->
+      <section class="contact-info section">
+        <div class="container">
+          <div class="contact-info__container grid">
+            <div
+              class="contact-info__card"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="contact-info__icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <h3 class="contact-info__title">Visit Our Store</h3>
+              <p class="contact-info__description">
+                GHQ, Rawalpindi<br />
+                Pakistan<br />
+                Open Mon-Sat: 9AM-8PM<br />
+                Sunday: 10AM-6PM
+              </p>
+            </div>
+
+            <div
+              class="contact-info__card"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="contact-info__icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <h3 class="contact-info__title">Call Us</h3>
+              <p class="contact-info__description">
+                +92 336 8370237<br />
+                Customer Service: 24/7<br />
+                Sales Support: Mon-Fri 9AM-6PM<br />
+                Technical Support: Mon-Fri 10AM-5PM
+              </p>
+            </div>
+
+            <div
+              class="contact-info__card"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="contact-info__icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <h3 class="contact-info__title">Email Us</h3>
+              <p class="contact-info__description">
+                General: aoun@stepforward.com<br />
+                Support: support@stepforward.com<br />
+                Sales: sales@stepforward.com<br />
+                Press: press@stepforward.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Form -->
+      <section class="contact-form section">
+        <div class="container">
+          <div class="contact-form__container grid">
+            <div class="contact-form__info" data-aos="fade-right">
+              <h2 class="contact-form__title">Send Us a Message</h2>
+              <p class="contact-form__description">
+                Have a question, feedback, or need assistance? Fill out the form
+                below and we'll get back to you within 24 hours.
+              </p>
+
+              <div class="contact-form__features">
+                <div class="contact-form__feature">
+                  <i class="fas fa-clock"></i>
+                  <span>Quick Response Time</span>
+                </div>
+                <div class="contact-form__feature">
+                  <i class="fas fa-shield-alt"></i>
+                  <span>Secure & Private</span>
+                </div>
+                <div class="contact-form__feature">
+                  <i class="fas fa-headset"></i>
+                  <span>Expert Support</span>
+                </div>
+              </div>
+
+              <div class="contact-form__image">
+                <img
+                  src="https://images.unsplash.com/photo-1543269865-cbf427effbad?w=500&h=400&fit=crop&crop=center"
+                  alt="Customer Service"
+                  class="contact-form__img"
+                />
+              </div>
+            </div>
+
+            <div class="contact-form__form" data-aos="fade-left">
+              <form class="form" id="contact-form">
+                <div class="form__group">
+                  <div class="form__input-group">
+                    <input
+                      type="text"
+                      id="firstName"
+                      name="firstName"
+                      class="form__input"
+                      placeholder=" "
+                      required
+                    />
+                    <label for="firstName" class="form__label"
+                      >First Name</label
+                    >
+                  </div>
+                  <div class="form__input-group">
+                    <input
+                      type="text"
+                      id="lastName"
+                      name="lastName"
+                      class="form__input"
+                      placeholder=" "
+                      required
+                    />
+                    <label for="lastName" class="form__label">Last Name</label>
+                  </div>
+                </div>
+
+                <div class="form__group">
+                  <div class="form__input-group">
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      class="form__input"
+                      placeholder=" "
+                      required
+                    />
+                    <label for="email" class="form__label">Email Address</label>
+                  </div>
+                  <div class="form__input-group">
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      class="form__input"
+                      placeholder=" "
+                    />
+                    <label for="phone" class="form__label">Phone Number</label>
+                  </div>
+                </div>
+
+                <div class="form__input-group">
+                  <select
+                    id="subject"
+                    name="subject"
+                    class="form__select"
+                    required
+                  >
+                    <option value="">Select Subject</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="product">Product Question</option>
+                    <option value="order">Order Support</option>
+                    <option value="return">Returns & Exchanges</option>
+                    <option value="wholesale">Wholesale Inquiry</option>
+                    <option value="press">Press & Media</option>
+                  </select>
+                  <label for="subject" class="form__label form__label--select"
+                    >Subject</label
+                  >
+                </div>
+
+                <div class="form__input-group">
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form__textarea"
+                    placeholder=" "
+                    rows="5"
+                    required
+                  ></textarea>
+                  <label for="message" class="form__label">Your Message</label>
+                </div>
+
+                <div class="form__checkbox-group">
+                  <input
+                    type="checkbox"
+                    id="newsletter"
+                    name="newsletter"
+                    class="form__checkbox"
+                  />
+                  <label for="newsletter" class="form__checkbox-label">
+                    Subscribe to our newsletter for updates and exclusive offers
+                  </label>
+                </div>
+
+                <button
+                  type="submit"
+                  class="button button--primary button--large form__submit"
+                >
+                  <i class="fas fa-paper-plane"></i>
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="faq section">
+        <div class="container">
+          <div class="section__header" data-aos="fade-up">
+            <h2 class="section__title">Frequently Asked Questions</h2>
+            <p class="section__subtitle">Quick answers to common questions</p>
+          </div>
+
+          <div class="faq__container">
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+              <div class="faq__question">
+                <h3>What is your return policy?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  We offer a 30-day return policy for all unworn shoes in
+                  original packaging. Free return shipping is provided for all
+                  orders over $100. Please visit our returns page for detailed
+                  instructions.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+              <div class="faq__question">
+                <h3>How do I find the right size?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Use our comprehensive size guide which includes measurements
+                  in both centimeters and inches. We also offer virtual fitting
+                  technology and free size exchanges if needed.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+              <div class="faq__question">
+                <h3>Do you offer international shipping?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Yes, we ship worldwide to over 150 countries. Shipping costs
+                  and delivery times vary by location. Free international
+                  shipping is available for orders over $200.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+              <div class="faq__question">
+                <h3>How can I track my order?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Once your order ships, you'll receive a tracking number via
+                  email. You can also track your order status by logging into
+                  your account on our website.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
+              <div class="faq__question">
+                <h3>Do you offer wholesale pricing?</h3>
+                <i class="fas fa-chevron-down faq__icon"></i>
+              </div>
+              <div class="faq__answer">
+                <p>
+                  Yes, we offer wholesale pricing for qualified retailers.
+                  Please contact our sales team at sales@stepforward.com with
+                  your business information for more details.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Map Section -->
+      <section class="map section">
+        <div class="container">
+          <div class="section__header" data-aos="fade-up">
+            <h2 class="section__title">Visit Our Flagship Store</h2>
+            <p class="section__subtitle">Experience StepForward in person</p>
+          </div>
+
+          <div class="map__container" data-aos="zoom-in">
+            <div class="map__content">
+              <div class="map__info">
+                <h3 class="map__title">StepForward Flagship Store</h3>
+                <p class="map__address">
+                  <i class="fas fa-map-marker-alt"></i>
+                  GHQ, Rawalpindi, Pakistan
+                </p>
+                <div class="map__hours">
+                  <h4>Store Hours</h4>
+                  <div class="map__schedule">
+                    <div class="schedule__item">
+                      <span>Monday - Friday</span>
+                      <span>9:00 AM - 8:00 PM</span>
+                    </div>
+                    <div class="schedule__item">
+                      <span>Saturday</span>
+                      <span>9:00 AM - 8:00 PM</span>
+                    </div>
+                    <div class="schedule__item">
+                      <span>Sunday</span>
+                      <span>10:00 AM - 6:00 PM</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="map__features">
+                  <div class="map__feature">
+                    <i class="fas fa-parking"></i>
+                    <span>Free Parking Available</span>
+                  </div>
+                  <div class="map__feature">
+                    <i class="fas fa-wheelchair"></i>
+                    <span>Wheelchair Accessible</span>
+                  </div>
+                  <div class="map__feature">
+                    <i class="fas fa-wifi"></i>
+                    <span>Free WiFi</span>
+                  </div>
+                </div>
+              </div>
+              <div class="map__image">
+                <img
+                  src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop&crop=center"
+                  alt="StepForward Store Interior"
+                  class="map__img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Social Media -->
+      <section class="social-media section">
+        <div class="container">
+          <div class="social-media__container" data-aos="zoom-in">
+            <div class="social-media__content">
+              <h2 class="social-media__title">Follow Us</h2>
+              <p class="social-media__description">
+                Stay connected with StepForward on social media for the latest
+                updates, style tips, and exclusive content.
+              </p>
+              <div class="social-media__links">
+                <a href="#" class="social-media__link">
+                  <i class="fab fa-facebook-f"></i>
+                  <span>Facebook</span>
+                </a>
+                <a href="#" class="social-media__link">
+                  <i class="fab fa-instagram"></i>
+                  <span>Instagram</span>
+                </a>
+                <a href="#" class="social-media__link">
+                  <i class="fab fa-twitter"></i>
+                  <span>Twitter</span>
+                </a>
+                <a href="#" class="social-media__link">
+                  <i class="fab fa-youtube"></i>
+                  <span>YouTube</span>
+                </a>
+                <a href="#" class="social-media__link">
+                  <i class="fab fa-linkedin"></i>
+                  <span>LinkedIn</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer__container grid">
+          <div class="footer__content">
+            <div class="footer__logo">
+              <img src="logo.png" alt="StepForward Logo" class="logo-img" />
+              <span>StepForward</span>
+            </div>
+            <p class="footer__description">
+              Crafting exceptional footwear since 2010. We believe every step
+              should be a statement of style, comfort, and quality.
+            </p>
+            <div class="footer__social">
+              <a href="#" class="footer__social-link">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="footer__social-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="footer__social-link">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="footer__social-link">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer__group">
+            <h3 class="footer__title">Company</h3>
+            <ul class="footer__list">
+              <li><a href="about.html" class="footer__link">About Us</a></li>
+              <li><a href="careers.html" class="footer__link">Careers</a></li>
+              <li><a href="press.html" class="footer__link">Press</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__group">
+            <h3 class="footer__title">Products</h3>
+            <ul class="footer__list">
+              <li>
+                <a href="products.html?category=mens" class="footer__link"
+                  >Men's Shoes</a
+                >
+              </li>
+              <li>
+                <a href="products.html?category=womens" class="footer__link"
+                  >Women's Shoes</a
+                >
+              </li>
+              <li>
+                <a href="products.html?category=athletic" class="footer__link"
+                  >Athletic</a
+                >
+              </li>
+              <li>
+                <a href="products.html?category=casual" class="footer__link"
+                  >Casual</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__group">
+            <h3 class="footer__title">Support</h3>
+            <ul class="footer__list">
+              <li>
+                <a href="size-guide.html" class="footer__link">Size Guide</a>
+              </li>
+              <li><a href="returns.html" class="footer__link">Returns</a></li>
+              <li><a href="faq.html" class="footer__link">FAQ</a></li>
+              <li><a href="contact.html" class="footer__link">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__group">
+            <h3 class="footer__title">Contact Info</h3>
+            <div class="footer__contact">
+              <div class="footer__contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>aoun@stepforward.com</span>
+              </div>
+              <div class="footer__contact-item">
+                <i class="fas fa-phone"></i>
+                <span>+92 336 8370237</span>
+              </div>
+              <div class="footer__contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>GHQ, Rawalpindi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p class="footer__copy">
+            © 2025 StepForward. All rights reserved. | Privacy Policy | Terms of
+            Service
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
